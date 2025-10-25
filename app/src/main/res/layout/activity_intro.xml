@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_cor"
+    tools:context=".intro">
+
+    <ImageView
+        android:id="@+id/btnv_telainicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/detalhe_circular_fundo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_sarci"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ifpb_logo"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="768dp" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#FFF9F9"
+        android:text="Cadastrar"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:width="20dp"
+        android:color="#FF000000"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#FFFCFC"
+        android:text="Fazer Login"
+        android:textColor="#050505"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistema de Ampliação de Recursos do SUAP "
+        android:textColor="#FDFDFD"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btnVoltarFundo"
+        app:srcCompat="@drawable/btn_voltar"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="813dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

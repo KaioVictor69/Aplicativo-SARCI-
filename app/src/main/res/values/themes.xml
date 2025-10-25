@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="OverFlowButtonStyle" perent="Widget.Appcompact.ActionButton.Overflow">
+
+    </style>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AplicativoSARCI" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AplicativoSARCI" parent="Base.Theme.AplicativoSARCI" />
+</resources>

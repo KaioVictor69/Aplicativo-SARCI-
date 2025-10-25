@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="azulCorDeFundoPrincipal">#50D8CC</color>
+    <color name="textoBotaoPreto">#FF000000</color>
+    <color name="btnVoltarFundo">#50D8CC</color>
+
+
+</resources>
