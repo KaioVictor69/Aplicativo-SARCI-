@@ -9,7 +9,7 @@ class intro : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityIntroBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(binding.root)fjdagdfh
 
 
     }
