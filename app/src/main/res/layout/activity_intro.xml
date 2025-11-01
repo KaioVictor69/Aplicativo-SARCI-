@@ -12,69 +12,70 @@
         android:id="@+id/btnv_telainicial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/detalhe_circular_fundo"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="630dp" />
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        app:srcCompat="@drawable/detalhe_circular_fundo" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/logo_sarci"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="52dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ifpb_logo"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="768dp" />
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_sarci" />
 
     <Button
         android:id="@+id/btnCadastrar"
         android:layout_width="300dp"
         android:layout_height="70dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="56dp"
+        android:width="20dp"
         android:backgroundTint="#FFF9F9"
+        android:color="#FF000000"
         android:text="Cadastrar"
         android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:width="20dp"
-        android:color="#FF000000"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="370dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="300dp"
         android:layout_height="70dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="56dp"
         android:backgroundTint="#FFFCFC"
         android:text="Fazer Login"
         android:textColor="#050505"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="488dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCadastrar" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="62dp"
         android:text="Sistema de Ampliação de Recursos do SUAP "
         android:textColor="#FDFDFD"
         android:textSize="12sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="262dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/btnVoltarFundo"
-        app:srcCompat="@drawable/btn_voltar"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="813dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

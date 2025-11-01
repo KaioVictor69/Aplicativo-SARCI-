@@ -21,7 +21,6 @@
         android:inputType="number|numberDecimal"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:circularflow_viewCenter="50dp"
         tools:layout_editor_absoluteX="43dp"
         tools:layout_editor_absoluteY="458dp" />
 
