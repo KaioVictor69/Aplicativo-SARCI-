@@ -57,11 +57,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sistema de Ampliação de Recursos do SUAP "
+        android:text="Sistema de Ampliação de\n     Recursos do SUAP "
         android:textColor="#FDFDFD"
         android:textSize="12sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="230dp" />
 
     <ImageButton
