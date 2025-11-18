@@ -12,33 +12,39 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#3BB7AC"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="-18dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <Button
             android:id="@+id/button5"
             android:layout_width="157dp"
             android:layout_height="118dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="32dp"
             android:backgroundTint="#FFFFFFFF"
             android:drawableTop="@drawable/image_10"
             android:text="justificar Falta"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="218dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button3"
             tools:layout_editor_absoluteY="458dp" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="157dp"
             android:layout_height="118dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="32dp"
             android:backgroundTint="#FFFFFFFF"
             android:drawableTop="@drawable/image_8"
             android:text="Listar\nDiários"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="218dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button4"
             tools:layout_editor_absoluteY="302dp" />
 
         <Button
@@ -63,7 +69,7 @@
             android:layout_width="157dp"
             android:layout_height="118dp"
             android:layout_marginStart="32dp"
-            android:layout_marginEnd="29dp"
+            android:layout_marginEnd="8dp"
             android:backgroundTint="#FFFFFFFF"
             android:drawableTop="@drawable/image_7"
             android:text="Boletim"
@@ -137,41 +143,54 @@
             android:id="@+id/imageView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button6"
             app:srcCompat="@drawable/detalhe_circular_fundo"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="630dp" />
+            tools:layout_editor_absoluteX="0dp" />
 
         <Button
             android:id="@+id/button8"
             android:layout_width="157dp"
             android:layout_height="118dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="8dp"
             android:backgroundTint="#FFFFFFFF"
             android:drawableTop="@drawable/image_16"
             android:text="Processos"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="229dp"
-            tools:layout_editor_absoluteY="757dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView7"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="157dp"
+            android:layout_width="wrap_content"
             android:layout_height="118dp"
+            android:layout_marginEnd="24dp"
             android:backgroundTint="#FFFFFFFF"
             android:drawableTop="@drawable/image_14"
             android:text="Notícias IFPB"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="229dp"
-            tools:layout_editor_absoluteY="614dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            tools:layout_editor_absoluteY="612dp" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="157dp"
             android:layout_height="118dp"
-            android:layout_marginTop="38dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
             android:backgroundTint="#FFFFFFFF"
             android:drawableTop="@drawable/image_15"
             android:text="Atendimento especial"
@@ -179,6 +198,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/button6"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button3" />
 
@@ -193,6 +213,7 @@
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/button8"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button" />
