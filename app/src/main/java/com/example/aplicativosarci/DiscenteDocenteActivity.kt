@@ -1,20 +1,32 @@
 package com.example.aplicativosarci
 
+import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.widget.Button
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.aplicativosarci.databinding.ActivityIntroBinding
 
 class DiscenteDocenteActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_discente_docente)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+        val  binding = ActivityIntroBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        val btnNext = findViewById<ImageButton>(R.id.btnDocente)
+
+        btnNext.setOnClickListener {
+            val intent = Intent(this, DiscenteDocenteActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnNext2 = findViewById<ImageButton>(R.id.btnDiscente)
+
+        btnNext2.setOnClickListener {
+            val intent = Intent(this, DiscenteDocenteActivity::class.java)
+            startActivity(intent)
         }
     }
 }

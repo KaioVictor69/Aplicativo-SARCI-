@@ -12,13 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AplicativoSARCI">
         <activity
-            android:name=".telaLogin"
+            android:name=".ConfigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfessorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DiscenteDocenteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlunoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Disciplinas"
+            android:exported="false" />
+        <activity
+            android:name=".TelaLogin"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".intro"
+            android:name=".Intro"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

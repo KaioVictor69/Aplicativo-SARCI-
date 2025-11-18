@@ -7,4 +7,99 @@
     android:layout_height="match_parent"
     tools:context=".ConfigActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3BB7AC">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="403dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="#FFFFFFFF"
+            android:text="Idioma"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button12" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="403dp"
+            android:layout_height="42dp"
+            android:backgroundTint="#FFFFFFFF"
+            android:text="Acessibilidade"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="335dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sistema de Ampliação de\n       Recursos do SUAP "
+            android:textColor="#FDFDFD"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/detalhe_circular_fundo"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#50D8CC"
+            app:srcCompat="@drawable/btn_voltar"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="819dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo_sarci"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="-2dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="403dp"
+            android:layout_height="42dp"
+            android:backgroundTint="#FFFFFFFF"
+            android:text="Conta"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3BB7AC"
+            android:text="Sair da conta"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="457dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
