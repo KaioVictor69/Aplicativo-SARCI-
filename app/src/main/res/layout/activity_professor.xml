@@ -19,7 +19,7 @@
             tools:layout_editor_absoluteY="-18dp">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnListar"
                 android:layout_width="157dp"
                 android:layout_height="118dp"
                 android:backgroundTint="#FFFFFFFF"
@@ -73,7 +73,7 @@
                 tools:layout_editor_absoluteY="277dp" />
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/btnConfig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#3BB7AC"

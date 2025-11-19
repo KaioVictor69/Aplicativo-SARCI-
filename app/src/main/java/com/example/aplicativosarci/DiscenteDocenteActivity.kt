@@ -8,6 +8,7 @@ import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import com.example.aplicativosarci.databinding.ActivityDiscenteDocenteBinding
 import com.example.aplicativosarci.databinding.ActivityIntroBinding
+import com.example.aplicativosarci.databinding.ActivityProfessorBinding
 
 class DiscenteDocenteActivity : AppCompatActivity() {
 
@@ -27,6 +28,15 @@ class DiscenteDocenteActivity : AppCompatActivity() {
 
         btnNext2.setOnClickListener {
             val intent = Intent(this, ProfessorActivity::class.java)
+            startActivity(intent)
+        }
+
+
+
+        val btnNext3 = findViewById<ImageButton>(R.id.btnVoltarDD)
+
+        btnNext.setOnClickListener {
+            val intent = Intent(this, Intro::class.java)
             startActivity(intent)
         }
     }

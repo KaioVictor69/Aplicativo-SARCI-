@@ -60,7 +60,7 @@
             tools:layout_editor_absoluteY="622dp" />
 
         <ImageButton
-            android:id="@+id/imageButton8"
+            android:id="@+id/btnVoltarConfig"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#50D8CC"
